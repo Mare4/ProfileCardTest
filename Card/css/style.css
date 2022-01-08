@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+body {
+    background: gray;
+}
+
+.photo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    /* height: calc(var(--radius-user-image)*2); */
+    overflow: hidden;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 5px solid rgb(240, 237, 237);
+    border-radius: 50%;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+    padding-top: 40px;
+    background: white;
+    height: 525px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.footer {
+    background: rgb(44, 34, 34);
+    color:rgb(230, 161, 57);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    background: rgb(121, 121, 187);
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(133, 129, 129);
+}
+
+.button:hover {
+    color: black;
+}
+
+.button:active {
+    color: white;
+}
+
+.button-padding {
+    padding-bottom: 10px;
+}
+
+.telegram_logo {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    position: fixed;
+    left: 350px;
+    top: 15px ;
+    
+}
+
+.contact_me_text {
+    position: absolute;
+    left: 180px;
+    bottom: 5px;
+    
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.telegram_logo_position {
+    /* text-align: right; */
+    /* padding-right: 20px; */
+    position: relative;
+}
+
+.numbers {
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+}
+
+.posts {
+    width: 133px;
+    border-right: 2px solid rgb(58, 57, 57);
+    position: relative;
+}
+
+.favorites {
+    position: relative;
+    width: 133px;
+    border-right: 2px solid rgb(58, 57, 57);
+}
+
+.messages {
+    padding-left: 35px;
+    position: relative;
+}
+
+.heart_logo {
+    position: absolute;
+    left: 2px;
+    top: 20px;
+    width: 30px;
+}
+
+.favorite_padding {
+    margin-top: 25px;
+}
+
+.post_logo {
+    position: absolute;
+    left: 2px;
+    top: 15px;
+    width: 40px;
+}
+
+.messages_logo {
+    position: absolute;
+    left: 2px;
+    top: 20px;
+    width: 30px;
+}
+
+div > a {
+    position: absolute;
+    right: 6px;
+    bottom: 5px;
+}
